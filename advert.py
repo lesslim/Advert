@@ -34,7 +34,7 @@ class Advert(ColorizeMixin):
     эĸземпляра ĸласса из атрибутов JSON-объеĸта.
     """
 
-    repr_color_code = 33
+    repr_color_code = 32
 
     def __init__(self, mapping: dict):
         self.__dict__.update(Parser(mapping).__dict__)

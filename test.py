@@ -130,6 +130,7 @@ def test7():
     }"""
     lesson = json.loads(lesson_str)
     lesson_ad = Advert(lesson)
+    lesson_ad.repr_color_code = 33
     print(lesson_ad)
 
 
